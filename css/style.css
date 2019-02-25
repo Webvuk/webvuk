@@ -84,6 +84,18 @@ nav li {
 .main-card-qs p {
 	margin: 20px;
 }
+.where-qs {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 40px;
+}
+.where-qs p {
+	margin: 20px;
+}
+.where-qs iframe {
+	margin-bottom: 40px;
+}
 .main-bot {
 	display: flex;
 	flex-direction: column;
@@ -210,6 +222,9 @@ nav li {
 	}
 	.main-card-qs {
 		width: 100%;
+	}
+	iframe {
+		width: 280px;
 	}
 }
 @media only screen and (max-width: 749px) {
